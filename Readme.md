@@ -160,3 +160,37 @@ echo "LAMP + FTP SERVER CONFIGURATION COMPLETE!"
 echo "Access Web Server: http://<your_server_ip>"
 echo "Access FTP Server: ftp://<your_server_ip>"
 echo "------------------------------------------------------------"
+
+
+Run Instructions
+
+1️⃣ Copy the full script into a file:
+
+nano lamp_ftp_setup.sh
+
+
+2️⃣ Save → Exit → Make it executable:
+
+chmod +x lamp_ftp_setup.sh
+
+
+3️⃣ Run the setup script:
+
+sudo ./lamp_ftp_setup.sh
+
+📚 References
+
+Ubuntu Server Documentation
+
+Apache HTTP Server Documentation
+
+MySQL Official Documentation
+
+vsftpd Official Guide
+
+🧑‍💻 Author
+
+Name:Mumtaj Ali
+GitHub Repository: https://github.com/Mumtaj-A/Linux-LAMP-FTP
+
+Portfolio:https://alisoft7.netlify.app/
