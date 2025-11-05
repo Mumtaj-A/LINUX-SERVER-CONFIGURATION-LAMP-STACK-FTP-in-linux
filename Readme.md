@@ -5,34 +5,37 @@ This project is ideal for demonstrating Linux administration and web hosting set
 
 ---
 
+Step 2: Save → Exit → Make it executable
+
+chmod +x lamp_ftp_setup.sh
+
+
+Step 3: Run the setup script
+
+sudo ./lamp_ftp_setup.sh
+
+📚 References
+
+Ubuntu Server Documentation
+
+Apache HTTP Server Documentation
+
+MySQL Official Documentation
+
+vsftpd Official Guide
+
+🧑‍💻 Author
+
+Name: Mumtaj Ali
+GitHub Repository: Mumtaj-A/Linux-LAMP-FTP
+
+Portfolio: alisoft7.netlify.app
+
 # 🚀 LAMP & FTP Server Setup Script
 
 A simple automated setup script for configuring a **LAMP stack** (Linux, Apache, MySQL, PHP) and **vsftpd FTP server** on Ubuntu.
 
 ---
-
-## 🧩 Run Instructions
-
-1️⃣ **Copy the full script into a file:**
-```bash
-nano lamp_ftp_setup.sh
-chmod +x lamp_ftp_setup.sh
-sudo ./lamp_ftp_setup.sh
-
-
-## 📚 References
-
-- [Ubuntu Server Documentation](https://ubuntu.com/server/docs)
-- [Apache HTTP Server Documentation](https://httpd.apache.org/docs/)
-- [MySQL Official Documentation](https://dev.mysql.com/doc/)
-- [vsftpd Official Guide](https://security.appspot.com/vsftpd.html)
-
-
-## 🧑‍💻 Author
-
-**Name:** Mumtaj Ali  
-**GitHub Repository:** [Mumtaj-A/Linux-LAMP-FTP](https://github.com/Mumtaj-A/Linux-LAMP-FTP)  
-**Portfolio:** [alisoft7.netlify.app](https://alisoft7.netlify.app)
 
 ## 📘 Table of Contents
 1. [Abstract](#abstract)  
