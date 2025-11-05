@@ -162,35 +162,31 @@ echo "Access FTP Server: ftp://<your_server_ip>"
 echo "------------------------------------------------------------"
 
 
-Run Instructions
+# 🚀 LAMP & FTP Server Setup Script
 
-1️⃣ Copy the full script into a file:
+A simple automated setup script for configuring a **LAMP stack** (Linux, Apache, MySQL, PHP) and **vsftpd FTP server** on Ubuntu.
 
+---
+
+## 🧩 Run Instructions
+
+1️⃣ **Copy the full script into a file:**
+```bash
 nano lamp_ftp_setup.sh
-
-
-2️⃣ Save → Exit → Make it executable:
-
 chmod +x lamp_ftp_setup.sh
-
-
-3️⃣ Run the setup script:
-
 sudo ./lamp_ftp_setup.sh
 
-📚 References
 
-Ubuntu Server Documentation
+## 📚 References
 
-Apache HTTP Server Documentation
+- [Ubuntu Server Documentation](https://ubuntu.com/server/docs)
+- [Apache HTTP Server Documentation](https://httpd.apache.org/docs/)
+- [MySQL Official Documentation](https://dev.mysql.com/doc/)
+- [vsftpd Official Guide](https://security.appspot.com/vsftpd.html)
 
-MySQL Official Documentation
 
-vsftpd Official Guide
+## 🧑‍💻 Author
 
-🧑‍💻 Author
-
-Name:Mumtaj Ali
-GitHub Repository: https://github.com/Mumtaj-A/Linux-LAMP-FTP
-
-Portfolio:https://alisoft7.netlify.app/
+**Name:** Mumtaj Ali  
+**GitHub Repository:** [Mumtaj-A/Linux-LAMP-FTP](https://github.com/Mumtaj-A/Linux-LAMP-FTP)  
+**Portfolio:** [alisoft7.netlify.app](https://alisoft7.netlify.app)
